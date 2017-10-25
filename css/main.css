@@ -85,7 +85,7 @@ header{
   width: 100%;
   z-index:1000;
 }
-
+/* la etiqueta nav para cada link de services, work y the team*/
 nav{
   left:10%;
   padding:10px;
@@ -94,7 +94,7 @@ nav{
 
 
  }
-
+/*margen para toda la caja que tendra nav*/
 nav a {
   margin:20px;
 }
@@ -207,17 +207,6 @@ button a:hover {
 .service>h5,.service>h6{
   margin: 0px;
   padding: 0px;
-.service{
-
-  display: inline-block;
-  margin: 0px;
-  padding: 0px;
-  position: relative;
-  width:35%;
-
-}
-
-
 
 }
 
@@ -242,6 +231,17 @@ button a:hover {
 
 
 }
+
+.service {
+
+  display: inline-block;
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+  width:35%;
+
+}
+
 
 .bg-work>h4{
   color:#424242;
