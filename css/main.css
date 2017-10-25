@@ -27,6 +27,9 @@ img {
   margin-left: auto;
   padding-left: 14px;
   padding-right: 14px;
+  /*Para usar las propiedades de top right left bottom*/
+  position:relative;
+  top: 50px;
 }
 
 .container:before, .container:after {
@@ -71,3 +74,210 @@ a:hover {
 
 /*ESCRIBE TU CÓDIGO DESDE AQUÍ*/
 
+/*Con z-indexel  encabezado se va superponer  sobre cualquier elemento*/
+/*Posicion fija*/
+header{
+  background:#fff;
+  font-weight:bold;
+  height:100px;
+  position:fixed;
+  top:0px;
+  width: 100%;
+  z-index:1000;
+}
+
+nav{
+  left:10%;
+  padding:10px;
+  position: absolute;
+  top:50%;
+
+
+ }
+
+nav a {
+  margin:20px;
+}
+/*logo a la derecha*/
+img[alt='logo']{
+  float:right;
+  margin-right: 11%;
+  width: 68px;
+}
+
+section{
+  width:100%;
+}
+
+.bg-home{
+  background-image:url(../assets/images/bg-home.jpg);
+
+  background-size: 100%;
+  color: white;
+  height:100%;
+  position: relative;
+  text-align: center;
+  top:82px;
+  width:100%;
+ }
+ .bg-home>p{
+   font-size: 15px;
+   margin: 0px;
+   padding: 10px;
+   position: relative;
+
+ }
+
+ .bg-home>button{
+   background-color: #2ecc71;
+   border: 0px;
+   color: white;
+   font-weight: 600;
+  padding: 15px;
+ }
+
+.bg-home>h2{
+  font-weight: bold;
+  margin: 0px;
+  position: relative;
+  padding: 100px 0px 40px 0px;
+
+}
+
+.bg-home>h1{
+  font-size: 50px;
+  font-weight: bold;
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+
+}
+
+.bg-services>h2{
+  font-size:30px;
+  font-weight: bold;
+  margin: 0px;
+  position: relative;
+  padding: 85px 0px 0px 0px;
+}
+
+.bg-services>h4{
+  font-weight: bold;
+  margin: 0px;
+  padding: 40px 0px 0px 0px;
+  position: relative;
+
+}
+
+button a {
+  color: white;
+}
+
+button a:hover {
+ color: white;
+}
+
+.bg-services{
+  background-color:#f17c72;
+  background-size: 100%;
+  color: #fff;
+  height:100%;
+  margin: 0px;
+  position: relative;
+  text-align: center;
+  top:60px;
+  padding: 0px;
+  width:100%;
+}
+
+
+
+.blockservices{
+  font-weight: bold;
+  /*padding: 100px 150px 75px 150px;*/
+
+}
+.service>img{
+  margin:20px;
+  max-width: 60%;
+
+}
+
+
+.service>h5,.service>h6{
+  margin: 0px;
+  padding: 0px;
+.service{
+
+  display: inline-block;
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+  width:35%;
+
+}
+
+
+
+}
+
+.bg-work{
+  background-color:#fff;
+  background-size: 100%;
+  color: #000;
+  height:100%;
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+  text-align: center;
+  top:60px;
+  width:100%;
+}
+
+.bg-work>h2{
+  font-size:30px;
+  font-weight: bold;
+  margin: 0px;
+  position: relative;
+
+
+}
+
+.bg-work>h4{
+  color:#424242;
+  margin: 0px;
+  position: relative;
+
+}
+/* ancho de la imagen respecto a su contenedor*/
+.bg-work>img{
+  width: 65%;
+}
+/*un box para cada  proyecto*/
+.box{
+  color:#424242;
+  display: inline-block;
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+  text-align:center;
+  width:33%;
+
+}
+
+.box>img{
+  margin-top:52px;
+  max-width: 85%;
+
+}
+
+footer{
+  background-color:#373B47;
+  color:#fff;
+  font-weight: bold;
+  margin: 0px;
+  padding: 10px;
+  position: relative;
+  text-align:center;
+  top:100px;
+}
